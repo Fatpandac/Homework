@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int gys(int m,int n)
 {
     return n==0?m:gys(n,m%n);

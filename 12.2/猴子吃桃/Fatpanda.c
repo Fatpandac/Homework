@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int  fun(int  d){
     return (d==10)?1:fun(d+1)*2+2;
 }
