@@ -2,24 +2,13 @@
 
 int sign(int num)
 {
-    if (num>0)
-    {
-        return 1;
-    }
-    else if (num<0)
-    {
-        return -1;
-    }
-    else
-    {
-        return 0;
-    }
+	return (num==0)?0:(num>0)?1:-1;
 }
 
 int main()
 {
-    int num;
-    scanf("%d",&num);
-    printf("%d",sign(num));
-    return 0;
+	int num;
+	scanf("%d",&num);
+	printf("%d",sign(num));
+	return 0;
 }
