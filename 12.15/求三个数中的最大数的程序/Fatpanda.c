@@ -9,12 +9,13 @@ void  cut(int *p,int *q)
 }
 
 int  main()
-{        int a,b,c;
-        scanf("%d%d%d",&a,&b,&c);
-        if  (a<b)
-            cut(&a,&b);
-        if  (a<c)  
-            cut(&a,&c);
-        printf("%d\n",a);
-        return  0;
+{        
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if  (a<b)
+        cut(&a,&b);
+    if  (a<c)  
+        cut(&a,&c);
+    printf("%d\n",a);
+    return  0;
 }
