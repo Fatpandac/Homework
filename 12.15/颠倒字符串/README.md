@@ -1,0 +1,15 @@
+编写一个函数invert(s)，颠倒输入的字符串参数s后返回。在main()函数中测试此函数：从键盘输入一个正整数n（n&isin;[1,20]）,然后再输入n个字符串（长度不大于100），对于每一个字符串，然后调用invert函数进行颠倒字符串操作，将颠倒后的字符串打印在屏幕上。
+****
+**input:**
+```
+3
+1AdkflsddfYjkdfDD
+aaaaaaaaaaAAAAAAAAAA
+12345678aBc
+```
+**output:**
+```
+DDfdkjYfddslfkdA1
+AAAAAAAAAAaaaaaaaaaa
+cBa87654321
+```
