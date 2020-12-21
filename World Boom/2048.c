@@ -211,11 +211,21 @@ int GameOver(int Map[][4])
             }
         }
     }
-    if ((PlusNum(OvMap,1) == 0))
+    if (PlusNum(OvMap,1) == 0)
     {
-        return 2;
-    }else{
-        return 0;
+        for (i = 0; i < 4; i++)
+        {
+            for (j = 0; j < 4; j++)
+            {
+                OvMap[i][j] = Map[j][i];    
+            }
+        }
+        if (PlusNum(OvMap,1) == 0)
+        {
+            return 2;
+        }else{
+            return 0;
+        }
     }
 }
 
