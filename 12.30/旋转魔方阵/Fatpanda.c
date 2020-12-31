@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int i,j,k,l;
+int i,j;
 
 void putnum(int magicbox[10][10],int n)
 {
-    int num=0,k,m=n;
+    int num=0,m=n;
 
-    for (k = 0; k < n; k++)
+    while (n != 0)
     {
         for (i = m-n; i < n-1; i++)
         {
