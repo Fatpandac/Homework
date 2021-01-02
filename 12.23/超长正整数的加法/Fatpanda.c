@@ -14,7 +14,6 @@ void reversol(char numlist[81])
 
 void add(char numlist1[81],char numlist2[81])
 {
-	printf("%s %s\n",numlist1,numlist2);
 	for (i = 0,j = 0; j < strlen(numlist2); i++,j++)
 	{
 		
