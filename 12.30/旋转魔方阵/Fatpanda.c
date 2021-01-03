@@ -5,7 +5,6 @@ int i,j;
 void putnum(int magicbox[10][10],int n)
 {
     int num=0,m=n;
-
     while (n != 0)
     {
         for (i = m-n; i < n-1; i++)
