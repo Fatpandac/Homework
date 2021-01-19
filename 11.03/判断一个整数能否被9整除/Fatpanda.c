@@ -1,19 +1,24 @@
 #include <stdio.h>
 #include <math.h>
 
+void getNum(int num)
+{
+	if (num > 9)
+	{
+		getNum(num/10);
+	}
+	printf("%3d ",num%10);
+}
+
 int main()
 {
-	int a, b, c, d, e, f, g;
+	int num;
 	printf("Enter an positive integer:\n");
-	scanf("%d", &g);
-	a = g / 100000;
-	b = g / 10000 % 10;
-	c = g / 1000 % 10;
-	d = g / 100 % 10;
-	e = g / 10 % 10;
-	f = g % 10;
-	printf("The digits are: %3d %3d %3d %3d %3d %3d\n", f,e,d,c,b,a);
-	if (g % 9 == 0) 
+	scanf("%d", &num);	
+	printf("The digits are: ");
+	getNum(num);
+	printf("\n");
+	if (num % 9 == 0) 
 	{
 		printf("Divisible by 9: YES.\n");
 	}
