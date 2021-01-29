@@ -1,8 +1,9 @@
 # Homework
 
-## 一名计算机科学新生的作业库
+### 一名计算机科学新生的作业库
 
-## A repo for homework by a CS freshman
+### A repo for homework by a CS freshman
+
 ---------------------------------------
 - ***Homework***
     - [**20.10.13**](.//20.10.13)
