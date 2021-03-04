@@ -4,10 +4,12 @@ int gys(int m,int n)
 {
     return n==0?m:gys(n,m%n);
 }
+
 int gbs(int m, int n)
 {
     return m*n/gys(m,n);
 }
+
 int main()
 {
     int m, n;

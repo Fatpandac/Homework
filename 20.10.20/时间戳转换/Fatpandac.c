@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main()
 {
 	int total,hours,minutes,seconds;

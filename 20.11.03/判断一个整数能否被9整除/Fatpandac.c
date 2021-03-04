@@ -14,11 +14,11 @@ int main()
 {
 	int num;
 	printf("Enter an positive integer:\n");
-	scanf("%d", &num);	
+	scanf("%d", &num);
 	printf("The digits are: ");
 	getNum(num);
 	printf("\n");
-	if (num % 9 == 0) 
+	if (num % 9 == 0)
 	{
 		printf("Divisible by 9: YES.\n");
 	}

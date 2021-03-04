@@ -42,7 +42,7 @@ int main()
                 commonlist[i] = commonlist[j];
                 commonlist[j] = num;
             }
-        }   
+        }
     }
     if (commonlist[0] > 0)
     {
@@ -55,6 +55,5 @@ int main()
     {
         printf("No Answer");
     }
-    
     return 0;
 }

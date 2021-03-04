@@ -17,6 +17,7 @@ int main()
 	}
 	return 0;
 }
+
 int is(int number)
 {
 	int ones, tens, handreds;

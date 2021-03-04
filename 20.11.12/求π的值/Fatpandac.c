@@ -19,7 +19,8 @@ int main()
     printf("%.7lf %d", t * 2.0, num);
     return 0;
 }
-double fpi(int i) 
+
+double fpi(int i)
 {
     double p = 1.0;
     p = p*i / (i + i + 1);

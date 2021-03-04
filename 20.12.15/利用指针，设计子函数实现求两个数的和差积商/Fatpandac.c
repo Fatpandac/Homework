@@ -7,6 +7,7 @@ void calculate(double x,double y,double *he,double *cha,double *ji,double *shang
 	*ji = x*y;
 	*shang = x*1.0/y*1.0;
 }
+
 int main()
 {
 	double x,y,he,cha,ji,shang;

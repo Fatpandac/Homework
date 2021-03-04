@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int number1, number2, other, cdivisor, cmultiple;
     scanf("%d %d", &number1, &number2);
     cdivisor = other = number2 % number1;

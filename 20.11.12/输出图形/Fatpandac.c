@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(void) {
 	int rows, i, j, k;
 	scanf("%d", &rows);

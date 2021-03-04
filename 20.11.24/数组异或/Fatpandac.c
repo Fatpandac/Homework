@@ -32,17 +32,16 @@ int main()
         {
             endnumlist[k] = numlist[i];
             k++;
-        }  
+        }
         else
         {
             i++;
         }
-        
+
     }
     for (i = 0; i < k; i++)
     {
         printf("%d ",endnumlist[i]);
     }
-    
     return 0;
 }

@@ -1,14 +1,12 @@
 #include <stdio.h>
 
-#pragma warning(disable:4996)
-
 int main()
 {
 	int floor, room, i, j, k;
 	scanf("%d", &floor);
 	room = floor-1;
 	for (i = 0; i < floor; i++)
-	{	
+	{
 		for ( j = 0; j < room-i; j++)
 		{
 			printf(" ");

@@ -2,8 +2,6 @@
 #include <time.h>
 #include <stdlib.h>
 
-int tolower(char answer);
-
 int main()
 {
     int number = rand() % 10 + 1;
@@ -43,7 +41,7 @@ int main()
         printf("Do you wanna play again? If yes, press Y or y. Otherwise press N or n.\n");
         scanf(" %c",&answer);
         if (tolower(answer) == 'y') {
-            
+
         }else {
             break;
         }

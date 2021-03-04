@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-#pragma warning(disable:4996)
-
 int main()
 {
 	int j, i, n, num, number[30][2],oldnumber[30][2],index=1;
@@ -30,7 +28,7 @@ int main()
 		}
 	}
 	num = 0;
-	
+
 	for (i = 0;i < n;i++)
 	{
 		if (number[i][1] == number[i + 1][1])
@@ -44,7 +42,7 @@ int main()
 			number[i + 1][0] = index;
 		}
 	}
-	
+
 	if (number[0][0] != 1)
 	{
 		number[0][0] = 1;

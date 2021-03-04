@@ -1,9 +1,10 @@
 #include <stdio.h>
 
+int fn(int a, int n);
+
 int main()
 {
 	int n,a,i,partnum=1,sum=0;
-	int fn(int a, int n);
 	printf("Input a: ");
 	scanf("%d", &a);
 	printf("Input n: ");
@@ -16,6 +17,7 @@ int main()
 	printf("sum=%d",sum);
 	return 0;
 }
+
 int fn(int a,int n)
 {
 	int basicnum = 1,number = 0,i;

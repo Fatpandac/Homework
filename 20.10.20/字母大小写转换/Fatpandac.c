@@ -1,5 +1,7 @@
 #include <stdio.h>
+
 int topper(char word);
+
 int main()
 {
 	char word;
@@ -8,8 +10,8 @@ int main()
 	return 0;
 }
 int topper(char word)
-{	
-	if (word>=65 && word<90) 
+{
+	if (word>=65 && word<90)
 		return word+32;
 	if (word>=97 && word<=122)
 		return word-32;

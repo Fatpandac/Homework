@@ -13,6 +13,7 @@ int main()
     printf("%.2lf",y);
     return 0;
 }
+
 double ave(int a[],int n)
 {
     int i,sum=0;

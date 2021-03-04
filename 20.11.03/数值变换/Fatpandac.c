@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-#pragma warning(disable:4996)
-
 int main()
 {
 	int number,hundred,tensplace,basicunit;
 	scanf("%d", &number);
-	if (100 <= number && number <= 999) 
+	if (100 <= number && number <= 999)
 	{
 		if (number - number % 100 * 3 == 0)
 		{
