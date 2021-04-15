@@ -1,4 +1,4 @@
-## 实现一下函数
+## 实现以下函数
 
 1. InitList（sqList & L，int n ）//初始化线性表
 2. InsertList（sqlist &L， int i，int e）//向顺序表第i个位置插入元素e
