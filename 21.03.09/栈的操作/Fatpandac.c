@@ -70,16 +70,14 @@ int Palindrome(SqStack *stack,char inputSentence[MaxSize])
     return (!strcmp(inputSentence,outputSentence)) ? 1 : 0 ;
 }
 
-int BeOctal(int num)
+int BeOctal(SqStack *stack,int num)
 {
-    SqStack octalStack;
-    octalStack.top = -1;
     while (num)
     {
-        octalStack.word[++octalStack.top] = num % 8 + 48;
+        stack->word[++stack->top] = num % 8 + 48;
         num = num / 8;
     }
-    OutputStack(&octalStack);
+    OutputStack(stack);
     return 0;
 }
 
@@ -94,6 +92,6 @@ int main()
     PopIndex(&stack,9);             //从栈中删除元素
     OutputStack(&stack);            //输出全栈
     printf("\n\e[31m%s\e[0m\n",Palindrome(&stack,"abcdedcba") ? "Yes" : "No");     //回文判断
-    BeOctal(60);
+    BeOctal(&stack,60);
     return 0;
 }
