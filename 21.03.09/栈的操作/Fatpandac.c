@@ -19,13 +19,12 @@ void PrintStack(SqStack stack)
     printf("\e[0m \n");
 }
 
-int Push(SqStack *stack,char sentence[MaxSize])
+void Push(SqStack *stack,char sentence[MaxSize])
 {
     for (int i = 0;i < strlen(sentence);i++)
     {
         stack->word[++stack->top] = sentence[i];
     }
-    return 0;
 }
 
 char Pop(SqStack *stack)
@@ -46,36 +45,31 @@ int PopIndex(SqStack *stack,int index)
     return 1;
 }
 
-int OutputStack(SqStack *stack)
+void OutputStack(SqStack *stack)
 {
-    char popWord;
     while (stack->top != -1)
     { 
         printf("%c",Pop(stack));
     }
-    return 0;
 }
 
 int Palindrome(SqStack *stack,char inputSentence[MaxSize])
 {
-    char outputSentence[MaxSize];
+    char stackOutputSentence[MaxSize];
     Push(stack,inputSentence);
     for (int i = 0; i <= strlen(inputSentence); i++)
     {
-        outputSentence[i] = (i == strlen(inputSentence)) ? '\0' : Pop(stack);
+        stackOutputSentence[i] = (i == strlen(inputSentence)) ? '\0' : Pop(stack);
     }
-    return (!strcmp(inputSentence,outputSentence)) ? 1 : 0 ;
+    return (!strcmp(inputSentence,stackOutputSentence)) ? 1 : 0 ;
 }
 
-int BeOctal(SqStack *stack,int num)
+void BeOctal(SqStack *stack,int num)
 {
-    while (num)
-    {
+    do{
         stack->word[++stack->top] = num % 8 + 48;
-        num = num / 8;
-    }
+    }while (num = num / 8);
     OutputStack(stack);
-    return 0;
 }
 
 int main()
