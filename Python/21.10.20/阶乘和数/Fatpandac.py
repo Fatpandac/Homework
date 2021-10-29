@@ -8,8 +8,9 @@ Description: Determine whether the factorial of a number and its respective numb
 import math
 
 number = input()
+total  = sum(map(math.factorial, map(int, number)))
 print("{},{}!={}\n{}".format(number,
                              "!+".join(map(str, map(int, number))),
-                             sum(map(math.factorial, map(int, number))),
-                             "Yes" if int(number) == sum(map(math.factorial, map(int, number))) else "No"))
+                             total,
+                             "Yes" if int(number) == total else "No"))
 

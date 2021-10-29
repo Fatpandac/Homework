@@ -8,6 +8,7 @@ Description: Product of two number and the reverse order of their product is sam
 m, n = input().split()
 print("{}*{}{}{}*{}".format(m,
                             n,
-                            "=" if int(m)*int(n) == int(m[::-1])*int(n[::-1]) else "!=",
+                            "=" if int(m)*int(n) == int(m[::-1])*int(n[::-1]) 
+                            else "!=",
                             int(m[::-1]),
                             int(n[::-1])))
