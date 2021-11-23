@@ -8,7 +8,7 @@ Description: Reading a csv file, it's record the hobby of each person. Given a
 
 import csv
 
-def mian(name):
+def main(name):
     with open('data131.csv', 'r', encoding='UTF-8') as f:
         reader = list(csv.reader(f))
         hobbis = reader[0][1:]

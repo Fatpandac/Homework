@@ -6,5 +6,5 @@ Description: Given a number, return count how many zero in the tail of it
              binary.
 """
 
-def mian(n):
+def main(n):
     return str(bin(n)).split('1')[-1].count('0')

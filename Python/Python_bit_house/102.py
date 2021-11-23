@@ -5,7 +5,7 @@ Create: 2021/11/19
 Description: Caesar encryption.
 """
 
-def mian(s, k):
+def main(s, k):
     res = ''
     for i in s:
         if i.isalpha():
