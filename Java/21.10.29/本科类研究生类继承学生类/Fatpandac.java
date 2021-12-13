@@ -1,10 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/10/29
-** Description: Undergraduate and Graduate extends Student class.
-*/
-
 class Student {
 	public String name;
 	public int age;

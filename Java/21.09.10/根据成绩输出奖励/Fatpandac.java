@@ -1,10 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/10/07
-** Description: Get gift by score.
-*/
-
 import java.util.Scanner;
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;

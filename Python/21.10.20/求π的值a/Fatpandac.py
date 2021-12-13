@@ -1,9 +1,3 @@
-"""
-FileName: Fatpandac.py
-Author: Fatpandac
-Create: 2021/10/23
-Description: Calculate the pi by π/2=1+1!/3+2!/(3×5)+3!/(3×5×7)+...+(n-1)!/(3×5×7×...×(2n-1))
-"""
 import math
 from functools import reduce
 

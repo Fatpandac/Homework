@@ -1,11 +1,3 @@
-"""
-FileName: Fatpandac.py
-Author: Fatpandac
-Create: 2021/10/28
-Description: Read a file called palin.in as N and string the output how many 
-             words are needed to form a palindrome.
-"""
-
 with open("palin.in", "r") as f:
     N = int(f.readline())
     string = f.readline().replace("\n", "")

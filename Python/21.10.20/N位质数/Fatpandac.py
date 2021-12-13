@@ -1,10 +1,3 @@
-"""
-FileName: Fatpandac.py
-Author: Fatpandac
-Create: 2021/10/20
-Description: Calculate the N digits of prime numbers.
-"""
-
 def isPrime(number):
     if number == 2:
         return True

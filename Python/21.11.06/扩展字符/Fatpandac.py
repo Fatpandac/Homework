@@ -1,10 +1,3 @@
-"""
-FileName: Fatpandac.py
-Author: Fatpandac
-Create: 2021/11/06
-Description: Expanding sentence.
-"""
-
 import re
 
 def expand(s1, s2):

@@ -1,11 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/10/14
-** Description: A class called Dog, it have three available called name, color, age
-**              and a constructor and a ShowDogInfo function.
-*/
-
 class Dog {
     String name;
     String color;

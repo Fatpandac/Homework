@@ -1,10 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/10/07
-** Description: Get sum of diagonal in matrix.
-*/
-
 import java.util.Scanner;
 
 public class Fatpandac {

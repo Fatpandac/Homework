@@ -1,11 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/11/26
-** Description: Create a abstract class named Role. employee and manager are 
-**              the subclass of Role.
-*/
-
 abstract class Role{
     private String name;
     private int age;

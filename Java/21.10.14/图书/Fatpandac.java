@@ -1,11 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/10/14
-** Description: A class called Book, it have six available called id, name, price, num, press and author,
-**              it have a constructor and a ShowBookInfo functions.
-*/
-
 import java.util.Scanner;
 
 class Book {

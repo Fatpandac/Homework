@@ -1,10 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/10/14
-** Description: Count times for "n" in "want you to know one thing"
-*/
-
 public class Fatpandac {
     public static void main(String[] args) {
         String sentence = "want you to know one thing";

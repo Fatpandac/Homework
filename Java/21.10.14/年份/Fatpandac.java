@@ -1,11 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/10/14
-** Description: A class called Date, it have three variables called year, month, day 
-**              and have tow function called setDate and showDate.
-*/
-
 import java.util.Scanner;
 
 class Date {

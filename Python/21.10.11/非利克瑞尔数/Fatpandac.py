@@ -1,10 +1,3 @@
-"""
-FileName: Fatpandac.py
-Author: Fatpandac
-Create: 2021/10/11
-Description: Lychrel Number.
-"""
-
 number = input()
 times = 1
 while number != ''.join(reversed(number)):

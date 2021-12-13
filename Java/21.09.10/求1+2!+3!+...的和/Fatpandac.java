@@ -1,10 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/10/07
-** Description: Get sum of "1 + 2! + 3! + ... + 10!"
-*/
-
 public class Fatpandac {
     public static void main(String[] args) {
         int sum = 0;

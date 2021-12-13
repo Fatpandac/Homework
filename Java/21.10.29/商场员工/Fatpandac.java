@@ -1,11 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/10/29
-** Description: Create basic class called Employee and two class called 
-**              SalariedEmployee, SalesEmployee extends Employee.
-*/
-
 import java.util.Scanner;
 
 class Employee {

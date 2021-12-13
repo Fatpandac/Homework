@@ -1,10 +1,3 @@
-"""
-FileName: Fatpandac.py
-Author: Fatpandac
-Create: 2021/10/23
-Description: Input a integer, it's a reversible primes output "yes", other is "no".
-"""
-
 def isPrime(number):
     for i in range(2, number):
         if number % i == 0:

@@ -1,10 +1,3 @@
-"""
-FileName: Fatpandac.py
-Author: Fatpandac
-Create: 2021/11/07
-Description: Delete a char in the sentence.
-"""
-
 import re
 
 METACHAR = "\*.?+-$^[](){}|/"

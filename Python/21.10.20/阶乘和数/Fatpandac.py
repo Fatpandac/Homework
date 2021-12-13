@@ -1,10 +1,3 @@
-"""
-FileName: Fatpandac.py
-Author: Fatpandac
-Create: 2021/10/20
-Description: Determine whether the factorial of a number and its respective numbers are equal.
-"""
-
 import math
 
 number = input()

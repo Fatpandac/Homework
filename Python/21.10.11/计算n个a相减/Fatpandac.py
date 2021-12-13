@@ -1,10 +1,3 @@
-"""
-FileName: Fatpandac.py
-Author: Fatpandac
-Create: 2021/10/11
-Description: Input number and times to calculate "aa...a - aa..a - a"
-"""
-
 from functools import reduce
 num, times = input().split(" ")
 number_list = []

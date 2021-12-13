@@ -1,12 +1,3 @@
-/*
-** FileName: Fatpanda.java
-** Author: Fatpandac
-** Create: 2021/10/14
-** Description: one class called Student, it have two variables called name and score.
-**              Other class called Score, it have two variables called course and grade
-**              and have two functions called setData and getResult.
-*/
-
 class Score {
     String course;
     int grade;

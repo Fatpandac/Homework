@@ -1,10 +1,3 @@
-/*
-** FileName: RectangleDemo.java
-** Author: Fatpandac
-** Create: 2021/10/29
-** Description: Create a class called Rectangle.
-*/
-
 class Rectangle {
     private double length;
     private double width;

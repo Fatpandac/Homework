@@ -1,10 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/10/07
-** Description: Calculate the narcissistic number and output it.
-*/
-
 public class Fatpandac {
     public static void main(String[] args) {
         for (int i = 100;i < 1000;i++) {

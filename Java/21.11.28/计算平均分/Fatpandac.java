@@ -1,11 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/11/28
-** Description: Create two classes named Singer and Score, a interface named 
-**              average, The classes implement the interface.
-*/
-
 import java.util.Scanner;
 import java.util.Arrays;
 

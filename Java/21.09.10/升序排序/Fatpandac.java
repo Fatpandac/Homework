@@ -1,10 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/10/07
-** Description: Ascending sort.
-*/
-
 import java.util.Scanner;
 
 public class Fatpandac {

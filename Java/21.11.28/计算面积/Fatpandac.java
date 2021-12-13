@@ -1,13 +1,3 @@
-/*
-** FileName: Fatpandac.Java
-** Author: Fatpandac
-** Create: 2021/11/28
-** Description: Create a abstract class named Geometry that contains a 
-                getArea() method. Create two classes named Rectangle and Circle
-                extends Geometry and override the getArea() method in each 
-                class.
-*/
-
 import java.util.Scanner;
 
 abstract class Geometry {

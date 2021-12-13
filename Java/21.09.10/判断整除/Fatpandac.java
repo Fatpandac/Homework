@@ -1,10 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/10/07
-** Description: Determine whether be divided exactly by 3, 5, 7.
-*/
-
 import java.util.Scanner;
 
 public class Fatpandac{

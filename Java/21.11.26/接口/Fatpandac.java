@@ -1,11 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/11/26
-** Description: Create a interface of PatCarel. worker, farmer and cadre 
-**              implement this interface.
-*/
-
 interface PatCarel{
     public void raise();
     public void play();

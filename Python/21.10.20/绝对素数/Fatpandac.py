@@ -1,10 +1,3 @@
-"""
-FileName: absolute_prime.py
-Author: Fatpandac
-Create: 2021/10/17
-Description: calculate the absolute prime between m and n.
-"""
-
 def absolute(number):
     for i in range(2, number):
         if number % i == 0:

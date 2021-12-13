@@ -1,10 +1,3 @@
-/*
-** FileName: AnimalDemo.java
-** Author: Fatpandac
-** Create: 2021/10/29
-** Description: 
-*/
-
 class Animal {
 	String type="";
 

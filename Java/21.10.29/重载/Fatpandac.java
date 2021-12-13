@@ -1,11 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/10/29
-** Description: Overloading function of add to add two float, add two integer, 
-**              add two boolean, add two string.
-*/
-
 import java.util.Scanner;
 
 public class Fatpandac {

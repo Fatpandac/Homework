@@ -1,10 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/10/29
-** Description: Create a class called People then Boy and Girl extends it.
-*/
-
 import java.util.Scanner;
 
 class People {

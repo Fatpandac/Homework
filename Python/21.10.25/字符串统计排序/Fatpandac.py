@@ -1,10 +1,3 @@
-"""
-FileName: Fatpandac.py
-Author: Fatpandac
-Create: 2021/10/28
-Description: Type a sentence calculation characters occurrences.
-"""
-
 sentence = input()
 dict_char = {}
 

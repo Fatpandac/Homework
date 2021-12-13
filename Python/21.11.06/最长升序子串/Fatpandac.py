@@ -1,11 +1,3 @@
-"""
-FileName: Fatpandac.py
-Author: Fatpandac
-Create: 2021/11/06
-Description: Search the lengest of substring in sentence.
-Copyright: This algorithm is quoted from @labuladong on GitHub.
-"""
-
 def find_index(char):
     l, r = 0, len(stack)
     while l < r:

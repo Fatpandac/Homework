@@ -1,11 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/11/26
-** Description: Create a abstract class named chouXiang. Rect and Triangle are 
-**              the subclass of chouXiang.
-*/
-
 abstract class chouXiang {
     int length;
     int height;

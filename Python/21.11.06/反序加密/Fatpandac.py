@@ -1,10 +1,3 @@
-"""
-FileName: Fatpandac.py
-Author: Fatpandac
-Create: 2021/11/06
-Description: Encrypted string.
-"""
-
 import re
 
 head_key = input()

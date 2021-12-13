@@ -1,10 +1,3 @@
-"""
-FileName: Fatpandac.py
-Author: Fatpandac
-Create: 2021/10/11
-Description: Amicable numbers.
-"""
-
 number_1, number_2 = input().split(" ")
 number_1_factor = [i for i in range(1,int(number_1)) if int(number_1) % i == 0]
 number_2_factor = [i for i in range(1,int(number_2)) if int(number_2) % i == 0]

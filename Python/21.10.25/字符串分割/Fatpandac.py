@@ -1,10 +1,3 @@
-"""
-FileName: Fatpandac.py
-Author: Fatpandac
-Create: 2021/10/28
-Description: Using tok to split the str.
-"""
-
 import re
 from functools import reduce
 

@@ -1,10 +1,3 @@
-"""
-FileName: pi.py
-Author: Fatpandac
-Create: 2021/10/12
-Description: Calculates the pi by "[2n/(2n-1)*2n/(2n+1)]".
-"""
-
 e = float(input())
 times = 0
 pi = 1.0

@@ -1,11 +1,3 @@
-/*
-** FileName: Fatpandac.java
-** Author: Fatpandac
-** Create: 2021/10/29
-** Description: Create a class called People, then write a class called Student
-**              who is extend by People.
-*/
-
 import java.util.Scanner;
 
 class People {

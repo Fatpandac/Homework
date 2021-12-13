@@ -1,10 +1,3 @@
-"""
-FileName: Fatpandac.py
-Author: Fatpandac
-Create: 2021/10/23
-Description: Calculate a number by sum of consecutive integers.
-"""
-
 number = int(input())
 total = 0
 for start in range(1, number):
